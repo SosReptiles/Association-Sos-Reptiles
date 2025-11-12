@@ -1,0 +1,32 @@
+:root {
+  --bg: #0b0f1a;
+  --text: #e5e7eb;
+  --accent: #16a34a;
+  --accent-2: #22d3ee;
+}
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: rgba(11,15,26,0.9);
+  padding: 1rem;
+  color: white;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+              url('../images/logo_refuge.png') center/contain no-repeat;
+}
+.btn.primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border: none;
+  padding: 10px 16px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
